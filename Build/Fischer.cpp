@@ -1,10 +1,11 @@
 #include "Skiing.h"
-string TFischer::GetModFi()
+#include "Fischer.h"
+string TFischer::GetMod()
 {
 	return Model;
 }
 
-void TFischer::SetModFi(string s)
+void TFischer::SetMod(string s)
 {
 	Model = s;
 }

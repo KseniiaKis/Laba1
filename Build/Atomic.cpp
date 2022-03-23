@@ -1,4 +1,6 @@
 #include "Skiing.h"
+#include "Atomic.h"
+
 bool TAtomic::GetCIT()
 {
 	return CanITry;

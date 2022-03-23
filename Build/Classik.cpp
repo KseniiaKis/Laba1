@@ -1,4 +1,5 @@
-#include "skiing.h"
+#include "Skiing.h"
+#include "Classik.h"
 
 int TClassik::GetNasech()
 {
