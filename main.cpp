@@ -4,6 +4,7 @@
 #include "Free.h"
 #include "Fischer.h"
 #include "Classik.h"
+#include "skiing.h"
 #include "Atomic.h"
 using namespace std;
 
@@ -14,7 +15,7 @@ int main()
 	TFischer e;
 
 	a.SetMod(n);
-	cout << a.GetMod() << "\n";//Ïîëèìîðôèçì
+	cout << a.GetMod() << "\n";//ÃÃ®Ã«Ã¨Ã¬Ã®Ã°Ã´Ã¨Ã§Ã¬
 	e.SetMod("Fr");
 	cout << e.GetMod() << "\n";
 	e.SetMod("True");
