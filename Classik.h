@@ -2,7 +2,8 @@
 #include "skiing.h"
 class TClassik :public TSkiing
 {
-	bool Nasechki;
+protected:
+	bool m;
 public:
-	int GetNasech(); void SetNasech(int Nas);
+	bool GetMod(); void SetMod(bool m);
 };
