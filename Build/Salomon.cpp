@@ -1,10 +1,12 @@
 #include "Skiing.h"
-int TSalomon::GetModSa()
+#include "Salomon.h"
+
+int TSalomon::GetMod()
 {
 	return Model;
 }
 
-void TSalomon::SetModSa(int m)
+void TSalomon::SetMod(int m)
 {
 	Model = m;
 }
