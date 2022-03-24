@@ -1,26 +1,28 @@
 #include <iostream>
+#include "Salomon.h"
+#include "Rossi.h"
+#include "Free.h"
+#include "Fischer.h"
+#include "Classik.h"
 #include "skiing.h"
+#include "Atomic.h"
 using namespace std;
 
 int main()
 {
 	int n = 0;
 	TSalomon a;
-	cout << "Vvedite nomer modeli Salomon\n";
-	cin >> n;//Просим и получаем номер модели лыж
+	TFischer e;
 
-	cout << "_____________\n";
-	a.SetModSa(n);
-	cout << a.GetModSa() << "\n";//Выводим номер модели
+	a.SetMod(n);
+	cout << a.GetMod() << "\n";//ГЏГ®Г«ГЁГ¬Г®Г°ГґГЁГ§Г¬
+	e.SetMod("Fr");
+	cout << e.GetMod() << "\n";
+	e.SetMod("True");
 
-	a.SetHole("True");//Устанавливаем есть ли отверстие
-	cout << "_____________\n";
-	cout << a.GetHole() << "\n"; //Выводим на экран есть ли отверстие
+	a.SetHole("True");
 
-
-	a.SetSize(187);//Устанавливаем размер лыж
-	cout << "_____________\n" << "\n";
-	cout << a.GetSize();//выводим на экран размер лыж
+	a.SetSize(187);
 
 	
 
