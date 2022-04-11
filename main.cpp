@@ -13,7 +13,8 @@ int main()
 	int n = 0;
 	TSalomon a;
 	TFischer e;
-
+	a.Skiing(55, 89);
+	
 	a.SetMod(n);
 	cout << a.GetMod() << "\n";
 	e.SetMod("Fr");
@@ -23,6 +24,7 @@ int main()
 	a.SetHole("True");
 
 	a.SetSize(187);
+
 
 	return 0;
 }
