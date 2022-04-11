@@ -8,7 +8,6 @@
 #include "Atomic.h"
 using namespace std;
 
-
 int main()
 {
 	int n = 0;
@@ -16,12 +15,14 @@ int main()
 	TFischer e;
 
 	a.SetMod(n);
-	cout << a.GetMod() << "\n";//Ïîëèìîðôèçì
+	cout << a.GetMod() << "\n";
 	e.SetMod("Fr");
 	cout << e.GetMod() << "\n";
 	e.SetMod("True");
-        a.SetHole("True");
+
+	a.SetHole("True");
 
 	a.SetSize(187);
-return 0;
+
+	return 0;
 }
