@@ -25,6 +25,5 @@ int main()
 
 	a.SetSize(187);
 
-
 	return 0;
 }
